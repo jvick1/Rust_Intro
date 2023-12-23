@@ -38,3 +38,6 @@ fn main() {
 ```shell
 $ cargo run
 ```
+
+  - Forgot to use `let` to bind a variable
+  - Forgot a semicolon `;` at the end of a line
