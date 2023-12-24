@@ -36,6 +36,6 @@ A few things here:
 2. The print command for Hello, world! can be found in `hello/src/main.rs`
 
 # What Next?
-Install this Repo and run each of the examples. 
-
-Make sure you check out the Read Me files too! 
+1. Review "hello" in this repo for an intro to rust. The read-me file should be the only difference as compared to the hello project you just made above.
+2. Next, start on the variables project. This only has a read-me file but it walks you through all the steps and shows code snippets
+3. In Progress
