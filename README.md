@@ -1,5 +1,5 @@
 # Rust_Intro
-How to install Rust and set up your first few projects.
+This guide will show how to install Rust and set up your first few projects. Most of the folders in this repo only have `README.md` files that guide you through the terminal commands and code snippets for Rust. 
 
 ## Download Rust
 Navigate to https://www.rust-lang.org/tools/install and install Rust. 
