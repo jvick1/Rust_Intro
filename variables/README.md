@@ -39,5 +39,33 @@ fn main() {
 $ cargo run
 ```
 
+ Some common errors you may hit:
   - Forgot to use `let` to bind a variable
   - Forgot a semicolon `;` at the end of a line
+
+- [ ] After the `println!(...)`, subtract `ready` from `missiles` like this:
+  - `missiles = missiles - ready;`
+- [ ] Add a second `println!(...)` to the end:
+  - `println!("{} missiles left", missiles);`
+- [ ] Run your program again using cargo
+
+
+```rust
+const STARTING_MISSILES: i32 = 8;
+const READY_AMOUNT: i32 = 2;
+
+fn main() {
+    let mut missiles = STARTING_MISSILES;
+    let ready = READY_AMOUNT;
+    println!("Firing {} of my {} missiles...", ready, missiles);
+    missiles = missiles - ready;
+    println!("{} missiles left", missiles);
+}
+```
+
+  - Did you run into an error about mutability? Go back and add `mut` at the right spot on the line where you declare `missiles`.
+- [ ] Declare a constant named `STARTING_MISSILES` and set it to `8` (the type is `i32`).
+- [ ] Declare a constant named `READY_AMOUNT` and set it to `2` (also `i32`).
+- [ ] Use the constants to initialize `missiles` and `ready`
+  - Where did you put the constants?  If you put them inside the `main()` function, try moving them up above `main()` to module scope! 
+- [ ] Nice. Congratulate yourself on a job well done!  You are a Rust programmer now!
