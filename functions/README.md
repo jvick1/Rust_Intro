@@ -1,5 +1,16 @@
 # Functions
-## Area
+In this section, we will make area_of and volume_of functions. Functions can appear in any order, feel free to keep main at the top. Function parameters, 
+
+```
+fn do_stuff (qty: f64, oz: f64) -> f64 {
+  return qty * oz;
+}
+``` 
+
+This is how you read the code above function `fn`, name (snake case), multiple input separated by commas with type, a return type denoted by the `->`, and the body of the function is inside the `{}`. 
+There is also a shorthand for the return statement it is called a tail expression and by dropping `return` and the `;` we can now just have  `qty * oz`. Let's try this in our next example!
+
+## Area Example
 
 - [ ] Make a new project named `functions` using cargo
   - See "cargo help" if you forgot the command.
@@ -46,19 +57,19 @@ Note: return x * y is the same as x * y. "tail expression" that returns a value 
 Back in main we then call our newly defined area_of function with the two inputs of width and height. 
 and lastly, we print the line just saying "Area is *BLANK" with blank being the return of area.
 
-## Volume
+## Volume Example
 
 - [ ] Still, in `/src/main.rs` let's add a volume function (I would make this function outside of main() just like we did for area_of)
 - [ ] Add a print line in main to show the volume (I would add this inside of main under the area println!)
 
 ```rust
-fn volume(width: i32, height: i32, depth: i32) -> i32 {
+fn volume_of(width: i32, height: i32, depth: i32) -> i32 {
     width * height * depth
 }
 ```
 
 ```rust
-println!("Volume is {}", volume(width, height, depth));
+println!("Volume is {}", volume_of(width, height, depth));
 ```
 
 ## Final Result
@@ -80,7 +91,7 @@ fn main() {
 
     println!("Area is {}", area);
 
-    println!("Volume is {}", volume(width, height, depth));
+    println!("Volume is {}", volume_of(width, height, depth));
 
 }
 
@@ -88,7 +99,7 @@ fn area_of(x: i32, y:i32) -> i32 {
   x * y
 }
 
-fn volume(width: i32, height: i32, depth: i32) -> i32 {
+fn volume_of(width: i32, height: i32, depth: i32) -> i32 {
     width * height * depth
 }
 
