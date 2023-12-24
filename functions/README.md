@@ -104,4 +104,4 @@ fn volume_of(width: i32, height: i32, depth: i32) -> i32 {
 }
 
 ```
-There are a few enhancements that can be made... for example the `let area` line could be moved into the `println!` like it is in volume. The variables could also be moved to the top we'd probably just need to make them `const`. Even the print lines could be combined if you really wanted to. Lastly area_of and volume_of could be moved to a new lib.rs file and you could call them using the project name (in Cargo.toml) and in main we'd just `call use project_name::{area_of, volume_of};`
+There are a few enhancements that can be made... for example the `let area` line could be moved into the `println!` like it is in volume. The variables could also be moved to the top we'd probably just need to make them `const`. Even the print lines could be combined if you really wanted to. Lastly area_of and volume_of could be moved to a new lib.rs file and you could call them using the `project_name` (in Cargo.toml) and in main we'd just `call use project_name::{area_of, volume_of};`
