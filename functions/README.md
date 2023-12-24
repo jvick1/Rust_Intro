@@ -10,6 +10,8 @@ fn do_stuff (qty: f64, oz: f64) -> f64 {
 This is how you read the code above function `fn`, name (snake case), multiple input separated by commas with type, a return type denoted by the `->`, and the body of the function is inside the `{}`. 
 There is also a shorthand for the return statement it is called a tail expression and by dropping `return` and the `;` we can now just have  `qty * oz`. Let's try this in our next example!
 
+For other Data Types visit https://doc.rust-lang.org/book/ch03-02-data-types.html.
+
 ## Area Example
 
 - [ ] Make a new project named `functions` using cargo
