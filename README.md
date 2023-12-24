@@ -39,4 +39,5 @@ A few things here:
 1. Review "hello" in this repo for an intro to rust. The read-me file should be the only difference as compared to the hello project you just made above.
 2. "variables" - This only has a read-me file but it walks you through all the steps and shows code snippets
 3. "functions" - This project covers calculations, functions, and more. 
-4. In Progress...
+4. "module" - Starting to dig into some object orientated programming 
+5. In Progress...
