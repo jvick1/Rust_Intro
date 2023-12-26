@@ -1,4 +1,4 @@
-# Variables
+# Project #2: Variables
 
 - [ ] Make a new project named `variables` using cargo
   - See "cargo help" if you forgot the command.
