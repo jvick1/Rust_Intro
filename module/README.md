@@ -29,11 +29,13 @@ fn volume_of(x: i32, y: i32, z: i32) -> i32 {
 }
 ```
 
-Now, let's move area_of and volume_of to a new file `src/lib.rs`.
+Now, let's move the `area_of` and `volume_of` functions to a new file `src/lib.rs`.
+
+
 
 ## Example 1: How to Mod
 
-- [ ] Star in you IDE, I'm using VScode, create a new file `src/lib.rs`
+- [ ] Star in your IDE (I'm using VSCode) and create a new file `src/lib.rs`
 
 ![image](https://github.com/jvick1/Rust_Intro/assets/32043066/90408e2b-b2fb-4e23-9b5d-496b9bab2182)
 
@@ -50,7 +52,7 @@ Now, let's move area_of and volume_of to a new file `src/lib.rs`.
 
 ![image](https://github.com/jvick1/Rust_Intro/assets/32043066/cadcbfde-135d-4bda-9267-761b3aeca8ac)
 
-Now in the terminal type the following:
+Now, in the terminal, type the following:
 
 ```shell
 $ cargo run
@@ -58,7 +60,7 @@ $ cargo run
 
 ## Final Result
 
-Here are what the 3 files should look like once done. Note pay attention to the package name in the toml file this is what you `use`.
+Here's how the three files should look once completed. Pay attention to the package name in the `Cargo.toml` file; this is what you `use`.
 
 ```rust
 // src/main.rs
