@@ -1,4 +1,4 @@
-# Module Systems
+# Project #4: Module Systems
 
 In our last section, functions, we had some functions, area_of and volume_of, at the bottom of `src/main.rs`. In this section let's modify the code by moving out the non-main functions to a new `src/lib.rs` file.
 
