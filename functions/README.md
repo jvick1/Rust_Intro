@@ -1,4 +1,4 @@
-# Functions
+# Project #3: Functions
 In this section, we will make area_of and volume_of functions. Functions can appear in any order, feel free to keep main at the top. Function parameters, 
 
 ```
