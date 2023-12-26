@@ -1,4 +1,5 @@
-# Introduction to Rust Project Structure
+
+# Project #1: Introduction to Rust Project Structure
 
 When you enter the command `cargo new hello` on a machine with Rust installed, it initiates the creation of a new project. The project directory will have the following structure:
 
