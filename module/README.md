@@ -35,6 +35,14 @@ Now, let's move the `area_of` and `volume_of` functions to a new file `src/lib.r
 
 ## Example 1: How to Mod
 
+- [ ] Make a new project named `module` using cargo
+  - See "cargo help" if you forgot the command.
+
+```shell
+$ cargo new module
+```
+- [ ] Copy the main `src/main.rs` from above
+
 - [ ] Star in your IDE (I'm using VSCode) and create a new file `src/lib.rs`
 
 ![image](https://github.com/jvick1/Rust_Intro/assets/32043066/90408e2b-b2fb-4e23-9b5d-496b9bab2182)
