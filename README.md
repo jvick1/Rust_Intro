@@ -1,3 +1,6 @@
+*v1.0.0* 
+*Last Updated: 1/4/24*
+
 # Rust_Intro
 
 Welcome to Rust_Intro, your gateway to learning Rust! This guide will walk you through the process of installing Rust, setting up your initial projects, and provide step-by-step instructions for understanding the basics of Rust programming.
