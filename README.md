@@ -81,3 +81,6 @@ cargo --version
    
 2. `Hello, world! Code:` You'll find the code responsible for printing "Hello, world!" in `hello/src/main.rs`.
 
+![image](https://github.com/jvick1/Rust_Intro/assets/32043066/3d1ba0af-3f75-4483-ad91-a012eeb969a1)
+
+Let's now go to the `hello` repo and continue with this first project. 
