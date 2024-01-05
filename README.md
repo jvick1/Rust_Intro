@@ -1,6 +1,19 @@
 *v1.0.0* 
 
-*Last Updated: 1/4/24*
+*Last Updated: 01/05/24*
+
+# Getting Started
+
+Explore the projects in this repository to deepen your understanding of Rust:
+
+1. "README": Finish this doc to set up rust before moving on to the different projects listed below.
+2. "hello": An introduction to Rust. Compare the read-me file with the "hello" project you just created.
+3. "variables": Learn about variables with comprehensive explanations and code snippets.
+4. "functions": Delve into calculations, functions, and more.
+5. "module": Start exploring object-oriented programming concepts.
+6. In Progress... Stay tuned for more learning resources and projects.
+
+Happy coding!
 
 # Rust_Intro
 
@@ -68,14 +81,3 @@ cargo --version
    
 2. `Hello, world! Code:` You'll find the code responsible for printing "Hello, world!" in `hello/src/main.rs`.
 
-# What Next?
-
-Explore the projects in this repository to deepen your understanding of Rust:
-
-1. "hello": An introduction to Rust. Compare the read-me file with the "hello" project you just created.
-2. "variables": Learn about variables with comprehensive explanations and code snippets.
-3. "functions": Delve into calculations, functions, and more.
-4. "module": Start exploring object-oriented programming concepts.
-5. In Progress... Stay tuned for more learning resources and projects.
-
-Happy coding!
